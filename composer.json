@@ -1,0 +1,22 @@
+{
+  "name": "emartech/php-templating",
+  "description": "helper classes for native php templates",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": "~7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "emartech/php-test-helpers": "~0.2"
+  },
+  "autoload": {
+    "psr-4": {"Emartech\\Response\\": "src/"}
+  },
+  "authors": [
+    {
+      "name": "fqqdk",
+      "email": "fqqdk1@gmail.com"
+    }
+  ]
+}
