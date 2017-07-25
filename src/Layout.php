@@ -22,20 +22,15 @@ class Layout
         <html>
 
         <head>
-            <?php
-                $view->renderCssResources($this->page->getCssResources());
-            ?>
+            <?php $view->renderCssResources($this->page->getCssResources()); ?>
+
+            <?php $view->renderJsResources($this->page->getJsResources()); ?>
         </head>
 
         <body>
-
             <?php $this->page->renderContent($view); ?>
 
-            <?php
-                $view->renderJsResources($this->page->getJsResources());
-            ?>
-
-            <?php $this->page->renderScript($view) ?>
+            <?php $this->page->renderScript($view); ?>
         </body>
         </html>
         <?php
