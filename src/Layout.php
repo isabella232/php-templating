@@ -19,10 +19,7 @@ class Layout
     {
         ?>
         <!DOCTYPE html>
-        <!--[if IE 9]>
-        <html class="ie9"><![endif]-->
-        <!--[if gt IE 9]><!-->
-        <html> <!--<![endif]-->
+        <html>
 
         <head>
             <?php
@@ -30,7 +27,7 @@ class Layout
             ?>
         </head>
 
-        <body class="e-bodyshame">
+        <body>
 
             <?php $this->page->renderContent($view); ?>
 
