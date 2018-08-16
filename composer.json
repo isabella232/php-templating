@@ -2,7 +2,7 @@
   "name": "emartech/php-templating",
   "description": "helper classes for native php templates",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": "~7.1"
   },
