@@ -6,10 +6,6 @@
   "require": {
     "php": "~7.1"
   },
-  "require-dev": {
-    "phpunit/phpunit": "^6.0",
-    "emartech/php-test-helpers": "~0.2"
-  },
   "autoload": {
     "psr-4": {"Emartech\\Response\\": "src/"}
   },
